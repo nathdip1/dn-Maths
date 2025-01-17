@@ -1,0 +1,25 @@
+{
+  "name": "dn-maths",
+  "version": "1.1.0",
+  "description": "A scalable JavaScript math library offering robust and efficient mathematical operations, starting with factorial computation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathdip1/dn-Maths.git"
+  },
+  "keywords": [
+    "dnMaths"
+  ],
+  "author": "Dipjyoti Nath",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nathdip1/dn-Maths/issues"
+  },
+  "homepage": "https://github.com/nathdip1/dn-Maths#readme",
+  "dependencies": {
+    "dn-maths": "file:"
+  }
+}
