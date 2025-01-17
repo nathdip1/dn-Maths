@@ -1,14 +1,16 @@
-'dn-maths' is a scalable JavaScript math library offering robust and efficient mathematical operations.
-Methods supported by dn-maths so far:
-1. fact(); // A input number is required to find the factorial of that number
-2. randomDigit() //Generates a random number with the specified number of input digit
+'dn-maths' is a powerful JavaScript math library designed for scalability, offering a wide range of robust and efficient mathematical operations. Here are a couple of methods currently supported by dn-maths:
 
+- **fact()**: Compute the factorial of a given input number.
+- **randomDigit()**: Generate a random number with a specified number of digits.
 
-How to use dn-maths:
-Step 1: Installing the package by using command: npm install dn-maths
-Step 2: Import the index,js file in a variable(Constant is recommended)
-Step 3. Try to access the various methods supported by the library
+**How to use dn-maths:**
 
-Example uses:
-const dnMaths = require('./index.js'); //You need to replace ./index.js by your own directory where the index.js is located
+1. Install the package using the command: `npm install dn-maths`
+2. Import the index.js file into a variable (Consider using a constant)
+3. Explore the various supported methods provided by the library
+
+**Example Usage:**
+```javascript
+const dnMaths = require('./index.js'); // Make sure to replace './index.js' with your directory path to index.js
 console.log(dnMaths.randomdigit(6));
+```
